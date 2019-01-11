@@ -1,0 +1,442 @@
+/*U-Travel*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.border{
+  border: 4px solid #ff0000;
+}
+.bookInputWrap{
+ width: 40%;
+ margin-top: 22px;
+}
+body{
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#logo{
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 2.5em;
+  margin-top: 38px;
+  float: left;
+  width: 10px;
+  text-shadow: 1px 1px 4px #069;
+}
+.menus-container{
+  padding-top: 40px;
+}
+#mobile-menu{
+  float: right;
+  display: none;
+  color: white;
+  font-size: 22px;
+}
+#mobile-menu:hover{
+  color: #112a49;
+}
+#navigation{
+  float: right;
+  margin-top: 7px;
+}
+#navigation li{
+  float: left;
+  list-style-type: none;
+  margin-left: 35px;
+}
+a{
+  color: #ffffff; 
+  display: inline-block;
+  text-decoration: none;
+  padding: .2em .7em;
+  border-radius: 3px;
+  
+}
+a:hover{
+  background-color: #fff;
+  color: #11122d;  
+  text-decoration: none;
+  cursor: pointer;
+}
+.login{
+  background-color: #11122d;
+  
+}
+.login a{
+  color: #fff;
+}
+.login:hover{
+  color: red;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.center{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.indent{
+  margin-left: 15px;
+}
+header{
+  background: #006699 url(imgs/beach-top.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+
+}
+.book-img{
+  background-image: url(imgs/travelcities-sign.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+input{
+  border-radius: 5px;
+}
+
+input[type=text]{
+  padding: 5px 0 5px 10px;
+  margin: 20px 10px 0 0; 
+  width: 200px;
+  height: 40px;
+  font-size: .7em;
+  color: #11122d;
+}
+input.submit{
+  padding: 5px 10px;
+  margin-top: 20px; 
+  margin-right: 340px;
+  
+  background-color: #11122d;
+  color: #fff;
+}
+.submit:hover{
+  background: orange;
+  cursor: pointer;
+}
+/* .far fa-suitcase{
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.fa-angle-double-right{
+  font-size: 3em;
+  color:#ffffff;
+  padding-top: 20px;
+}
+.fal fa-balance-scale-right{
+  color: #2c578e; 
+  width: 40px;
+  height: 40px;
+  font-size: 3em;
+  display: block;
+}
+.far fa-bed{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+} */
+.reason i{
+color: #2c578e;
+font-size: 2.5em;
+display: block;
+margin-bottom: 15px;
+}
+h1{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5em;
+  font-weight: 800;
+  line-height: 1em;
+  padding-top: 200px;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 1px #069;
+}
+h2{
+  padding-top: 80px;
+  display: inline-block;
+  color: #112a49;
+}
+.why{
+  margin-bottom: 50px;
+}
+.reason{
+  width: 33.3333%;
+  float: left;
+  padding: 2%;
+}
+.reasons-header{
+  width: 70%; 
+  float: right;
+  margin-bottom: 20px;
+}
+.reason h3{
+  font-size: 2em;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #2c578e;
+  float: left; 
+  clear: both;
+}
+.reason p{
+  text-align: justify;
+  color: #2c578e;
+  font-size: 0.8 em;
+  clear: both; 
+  margin-bottom: 50px;
+}
+.how-it-works{
+    background: linear-gradient(45deg, #11122d, #293c59);
+    padding-bottom: 50px;
+}
+.how-wrapper{
+    width: 79%;
+    margin: 0 auto;
+    position: relative;
+    top: 2em;
+    padding-bottom: 30px;
+}
+.how-image{
+    width: 45%;
+    height: 250px;
+    background: url(imgs/vacation-2.jpg);
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-bottom: 20px;
+}
+.how-description{
+    float: right;
+    width: 50%;
+    color: #fff;
+}
+.how-description h3{
+    font-size: 2.5em;
+    margin-bottom: .3em;
+    
+}
+
+.horiz-spacer{
+  display: inline-block;
+  position: relative;
+  border-bottom: 1px solid #2c578e;
+  width: 20%;
+  height: 12px;
+  top: 20px;
+}
+
+form{
+  margin-bottom: 80px;
+  width: 100%;
+}
+.d-block{
+  display: block;
+}
+.why-icons{
+  color: #2c578e;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer{
+  background-color: #11122d;
+  padding: 20px 0;
+}
+footer h3{
+  color: white;
+  font-size: 1em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+footer li{
+  list-style-type: none;
+  font-size: .7em;
+  margin-left: -7px;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width:1000px){
+    .reason{
+      float: none;
+      width: 100%; 
+      margin: 0 auto;
+    }
+    .center{
+      width: 90%;
+      margin: 0 auto;
+    }
+    h1{
+      padding-top: 200px;
+    }
+    h2{
+        padding-top: 40px;
+        display: block;
+        text-align: center;
+        float: none;
+      }
+    form{
+      margin-bottom: 40px;
+    }
+    .how-it-works{
+    background: linear-gradient(45deg, #11122d, #293c59);
+    }
+   .how-wrapper{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 2em;
+    } 
+    .how-image{
+        width: 100%;
+        height: 400px;
+        margin-top: 40px;
+        float: left;
+        
+    }
+    .how-description{
+        float: left;
+        width: 100%;
+        color: #fff;
+        margin-top: 0px;
+        clear: both
+    }
+    .how-description h3{
+        font-size: 2.5em;
+        padding: 10px 0 0 0;
+        text-align: center;
+
+    }
+    .how-description p{
+        font-size: 1em;
+        padding: 20px  0;
+        text-align: left; 
+    }
+}
+/* Mobile */
+@media screen and (max-width:750px){
+  a.login{
+    color: red;
+    background: #11122d;
+
+  }
+  
+    #navigation{
+      /* display: none; */
+      background: #ffffff;
+      width: 100%;
+      margin-top: -10px;
+      width: 90%;
+      text-align: center;
+      margin-right: 4.9%;
+    }
+    #navigation li{
+      float: none;
+      /* width: 100%; */
+      margin: 0;
+      padding: 0;
+    }
+    #navigation li a{
+      width: 100%;
+      border-radius: 0;
+      text-align: center;
+      color: #11122d;
+      padding: 5px 0;
+    }
+    #navigation li a:hover{
+      background: #11122d;
+      color: #ffffff;
+      
+    }
+    a.login{
+      color: #fff;
+      background: red;
+    }
+    #mobile-menu{
+      display: block;
+      
+    }
+    #navigation{
+      display: none;
+      position: relative;
+    }
+    #mobile-menu:hover > #navigation{
+      position: absolute;
+      display: block;
+      right: 1px;
+      top: 90px;
+    }
+    .reason{
+      width: 100%; 
+    }
+
+    h1{
+      font-size: 2.5em;
+      line-height: 1em;
+      padding-top: 150px;
+      margin-bottom: 10px;
+    }
+    h2{
+      padding-top: 40px;
+      display: block;
+      color: #112a49;
+      text-align: center;
+    }
+    p{
+        font-size: 1em;
+    }
+    nav{
+      padding-bottom: 0px;
+    }
+    .submit{
+      padding: 5px;
+      margin-top: 20px; 
+      margin-right: 340px;
+    }
+    form{
+      margin-bottom: 20px;
+    }
+    .how-wrapper{
+      width: 85%;
+      margin: 0 auto;
+      position: relative;
+      top: 2em;
+    }
+    .how-image{
+      height: 200px;
+      margin-top: 0;
+    }
+    .how-description h3{
+      font-size: 2.5em;
+      padding: 0;
+      text-align: center;
+
+    }
+    .how-description h3{
+      font-size: 2em;
+    }
+    .how-description p{
+      padding: 10px 0;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:750px){
+  .how-image{
+    height: 250px;
+    }
+  #mobile-menu:hover > ul{
+    display: block;
+    transition: 0.2s;
+  }
+}
